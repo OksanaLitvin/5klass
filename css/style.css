@@ -1,0 +1,91 @@
+header {
+	background-image: url('../images/books1.jpg');
+	background-size: 100%;
+	width: 100%; 
+	text-align: center; 
+	color: white;
+	font-size: 50px;
+	padding-top: 10px; 
+	padding-bottom: 20px;
+	margin: 5px auto;
+	text-shadow: 1px 1px 1px darkgreen, 2px 2px 1px pink;
+}
+input {
+	color: black;
+	font-size: 20px;
+}
+
+
+#grid {
+	display: grid;
+	grid-column-gap: 0;
+	grid-row-gap: 3px;
+	grid-template-columns: 250px auto 300px;
+
+}
+
+.blockRoz {
+	background: linear-gradient(cornsilk, goldenrod); 
+	height: 250px; 
+	width: 200px; 
+	text-align: center; 
+	padding-top: 5px; 
+	font-size: 14px;
+	line-height: 18px;
+	border-radius: 15px;
+	box-shadow: 0 0 10px #000;
+	margin-left: 12px;
+	margin-top: 40px;
+}
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+} 
+
+.block_day {
+	width: 200px;
+	
+	margin: 0;
+	text-align: left;
+}
+table {
+	border: 1px solid black;
+	border-collapse: collapse;
+	text-align: center;
+	margin: auto;
+}
+td {
+	text-align: center;
+	height: 20px;
+	border: 1px solid black;
+	padding: 0 2px;
+}
+
+h2, h3 {
+	text-align: center;
+}
+
+.books li {
+	margin-top: 10px;
+	margin-left: 20px;
+	list-style-type: "♒    ";
+
+}
+
+footer {
+	background-image: url('../images/books2.jpg');
+	background-size: 100%;
+	width: 100%; 
+	height: 15px; 
+	text-align: center; 
+	padding: 10px; 
+	margin: 10px auto;
+	clear: both;
+	color: white;
+}
+
+a {
+	text-decoration: none;
+}
+
